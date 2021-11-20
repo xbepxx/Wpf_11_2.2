@@ -1,0 +1,21 @@
+﻿<Window x:Class="Wpf_11_2._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_11_2._2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.092,0.255" StartPoint="0.092,0.811">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF2A7DD1" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Ellipse HorizontalAlignment="Center" Height="272" Margin="0,96,0,0" Stroke="Black" VerticalAlignment="Top" Width="276" Fill="#FFBBE400"/>
+        <Path Data="M47.203082,87.65908 L231.51077,87.889849 222.22028,109.95608 212.69872,120.08801 193.95804,124.76028 172.87413,125.8442 156.21232,116.244 145.81119,99.291748 139.77622,96.410629 127.81469,98.452587 121.14793,109.20321 114.17832,117.26378 102.45574,125.19344 86.706747,127.43847 70.95775,128.80263 55.699301,116.07497 46.125834,87.789443" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="42" Margin="0,175,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="186"/>
+        <Path Data="M37.762238,103.62042" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="1" Margin="38,104,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="1"/>
+        <Path Data="M36.713287,86.837203 L198.51399,86.837203 185.74301,99.81077 176.31406,103.97166 C176.31406,103.97166 163.45578,108.19368 160.31279,110.30817 157.16981,112.42267 143.83658,115.19961 143.83658,115.19961 L123.48951,117.31972 105.32168,116.28476 91.020979,114.8442 70.755245,107.51552 58.832168,100.56448 45.398394,93.667134 z" Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="31" Margin="0,285,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="163"/>
+    </Grid>
+</Window>
